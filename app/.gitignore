@@ -1,0 +1,4 @@
+/app/web/public
+/app/__pycache__
+/app/componenttypes/__pycache__
+**/__pycache__/**
