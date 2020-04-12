@@ -9,5 +9,15 @@ Personal for fun CMS
 Python Flask Backend
 - Static file server and REST listener
 
-React frontend app 
-- PageModelRenderer root component
+## Usage
+Build your frontend application and place into the `/app/dilcms/serve-folder`.
+- Your Application should make use of the DilCMS api to get and render Page Models.
+- For an example PageModelRenderer see [DilCMS React PageModelRenderer](dilcms-react-page-model-renderer)
+
+Run Docker container with build flag to pick up possible changes:
+```sh
+docker-compose up --build
+```
+
+With container running pages should be available at:
+- [localhost:5000/home](http://localhost:5000/home)
