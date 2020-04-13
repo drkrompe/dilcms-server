@@ -12,7 +12,7 @@ Python Flask Backend
 ## Usage
 Build your frontend application and place into the `/app/dilcms/serve-folder`.
 - Your Application should make use of the DilCMS api to get and render Page Models.
-- For an example PageModelRenderer see [DilCMS React PageModelRenderer](dilcms-react-page-model-renderer)
+- For an example PageModelRenderer see [DilCMS React PageModelRenderer](https://github.com/drkrompe/dilcms-react-page-model-renderer)
 
 Run Docker container with build flag to pick up possible changes:
 ```sh
